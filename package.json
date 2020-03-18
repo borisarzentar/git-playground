@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Try here our commit message convention",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "release": "node ./index.js"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "conventional-changelog": "^3.1.18",
-    "husky": "^4.2.3"
+    "husky": "^4.2.3",
+    "standard-version": "^7.1.0",
+    "yargs": "^15.3.1"
   },
   "husky": {
     "hooks": {
