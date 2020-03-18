@@ -1,0 +1,18 @@
+{
+  "name": "commit-message-playground",
+  "version": "1.0.0",
+  "description": "Try here our commit message convention",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "conventional-changelog": "^3.1.18",
+    "husky": "^4.2.3"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "./githooks/prepare-commit-msg.sh $HUSKY_GIT_PARAMS"
+    }
+  }
+}
