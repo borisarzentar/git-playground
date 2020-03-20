@@ -1,4 +1,13 @@
-git-playground - Releases
+:rocket: git-playground - Releases
+
+## [1.0.1](https://github.com/borisarzentar/git-playground/compare/v1.0.0...v1.0.1) (2020-03-20)
+
+
+### Features
+
+* **playground:** add rocket emoji to header ([ce8f991](https://github.com/borisarzentar/git-playground/commit/ce8f991073774db7eb0de231f58c513e75c79bfd))
+
+
 
 # 1.0.0 (2020-03-20)
 
