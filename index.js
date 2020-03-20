@@ -23,7 +23,7 @@ standardVersion({
   silent: true,
   noVerify: true,
   preset: 'angular',
-  header: 'git-playground - Releases\n',
+  header: ':rocket: git-playground - Releases\n',
   infile: 'CHANGELOG.md',
   releaseAs: specificVersion,
 })
