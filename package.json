@@ -4,7 +4,7 @@
   "description": "Try here our commit message convention",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version"
+    "release": "HUSKY_SKIP_HOOKS=1 standard-version"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +17,7 @@
   },
   "husky": {
     "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook"
+      "prepare-commit-msg": "./githooks/prepare-commit-msg.sh $HUSKY_GIT_PARAMS"
     }
   },
   "config": {
