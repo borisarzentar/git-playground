@@ -1,4 +1,13 @@
-:rocket: git-playground - Releases
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.1.0](https://github.com/borisarzentar/git-playground/compare/v1.0.1...v1.1.0) (2020-04-14)
+
+
+### Bug Fixes
+
+* **playground:** skip git hooks in release script ([b53ef36](https://github.com/borisarzentar/git-playground/commit/b53ef36b445dbc53c6c6dd28af5c865c01fba9ae))
 
 ## [1.0.1](https://github.com/borisarzentar/git-playground/compare/v1.0.0...v1.0.1) (2020-03-20)
 
