@@ -12,8 +12,8 @@ npm i
 
 - Make some changes, add file...
 - Add files to git
-- Run 'git commit'
-- Type commit message and close it (follow our convention[https://app.gitbook.com/@studocu/s/studocu/tech-operations/git-and-github/commit-messages])
+- Run 'git commit' in terminal (IDE is not supported, this is cli)
+- Follow instructions in the terminal and write the commit message (follow our convention[https://app.gitbook.com/@studocu/s/studocu/tech-operations/git-and-github/commit-messages])
 
 ## Create a new release and generate/update CHANGELOG.md
 
